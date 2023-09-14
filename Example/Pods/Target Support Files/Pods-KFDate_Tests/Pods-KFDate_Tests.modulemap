@@ -1,0 +1,6 @@
+framework module Pods_KFDate_Tests {
+  umbrella header "Pods-KFDate_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
