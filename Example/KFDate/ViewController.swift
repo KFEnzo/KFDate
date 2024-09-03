@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         view.addSubview(dateLabel)
         let timeStamp: TimeInterval = 1694677432171
         if let date = timeStamp.toDate(.millisecond)  {
-            dateLabel.text = date.toDateString("yyyy年MM月dd日 HH:mm:ss")
+            dateLabel.text = date.kf.string("yyyy年MM月dd日 HH:mm:ss")
         }
     }
 

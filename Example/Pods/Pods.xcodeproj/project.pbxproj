@@ -17,6 +17,7 @@
 		B39D8A9419ED1112CD7E57B768404B67 /* DateParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF3835BEA96D82A4866F7D14E08FA2 /* DateParsable.swift */; };
 		C28300B1FF4F00AB5DF11B9AFB2BD7DC /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA8B3844863D47CEF047B74C6218E2 /* String+Date.swift */; };
 		C4232516B7A585A1ED694C4388743FB5 /* Pods-KFDate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B56338CB991610D8A09C67CAD22 /* Pods-KFDate_Example-dummy.m */; };
+		C6BC7AAA2C8702A100917777 /* KFDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BC7AA92C8702A100917777 /* KFDate.swift */; };
 		CCE5163EC8DB57A86587E059B8C75908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D71479DE57C88D979D1BBDDA2736F570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F001E79353935B8B8606D3E76BC1118F /* Pods-KFDate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8B9BD69BF4063C7DF140E61E36C19A /* Pods-KFDate_Tests-dummy.m */; };
@@ -68,6 +69,7 @@
 		A09FEC8E4987C76586741367CFD166E8 /* KFDate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KFDate-Info.plist"; sourceTree = "<group>"; };
 		ADBA6AA216615415D63E155555B2B69F /* KFDate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFDate.debug.xcconfig; sourceTree = "<group>"; };
 		BDDDCA569BE741AFFCC0025B21AB45BC /* KFDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFDate-dummy.m"; sourceTree = "<group>"; };
+		C6BC7AA92C8702A100917777 /* KFDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFDate.swift; sourceTree = "<group>"; };
 		CBECEFFB8C7855E6D1D69C3C840D290D /* Pods-KFDate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFDate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF083C8549FA1A4B8F82B75EBF0F97E6 /* Pods-KFDate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KFDate_Example.modulemap"; sourceTree = "<group>"; };
 		EC48D582CC879002E791A9B0A9062E8F /* Pods-KFDate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFDate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		48D860C547E5D04AD4D51E325C499AB6 /* KFDate */ = {
 			isa = PBXGroup;
 			children = (
+				C6BC7AA92C8702A100917777 /* KFDate.swift */,
 				4AFF3835BEA96D82A4866F7D14E08FA2 /* DateParsable.swift */,
 				2E3E5672C9EEF7D7CE68A162D7241F93 /* Category */,
 				E7344352FF6EF961D419192E5D8B265D /* Pod */,
@@ -389,6 +392,7 @@
 				B39D8A9419ED1112CD7E57B768404B67 /* DateParsable.swift in Sources */,
 				8A22BC8F36645D221841DA5D85665A78 /* KFDate-dummy.m in Sources */,
 				C28300B1FF4F00AB5DF11B9AFB2BD7DC /* String+Date.swift in Sources */,
+				C6BC7AAA2C8702A100917777 /* KFDate.swift in Sources */,
 				5C1A7372C75C7539BA3A49D165824EB2 /* TimeInterval+Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

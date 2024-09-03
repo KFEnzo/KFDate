@@ -7,12 +7,12 @@
 
 import Foundation
 
-public extension Date {
+extension KFDateWrapper where Base == Date {
     
-    func toDateString(_ dateFormat: String = "yyyy.MM.dd HH:mm:ss") -> String {
+    public func string(_ dateFormat: String = "yyyy.MM.dd HH:mm:ss") -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = dateFormat
-        return formatter.string(from: self)
+        return formatter.string(from: self.base)
     }
     
 }
