@@ -7,73 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C87BB45E14F9ECEBA6610A8686A2DEC /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BED9147887B6927814F94E6B01BF9 /* Date+String.swift */; };
 		39D3AC9E2A6DD2530D3003FA35AB5813 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		49D0A629AFCED4BB8C6665C96A8F466B /* Pods-KFDate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A986BA6EA113FE6D5806730D3F01C9 /* Pods-KFDate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C61AB4BEE95AB3655C125677ECC854E /* Pods-KFDate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FD871D1DE3AF7390EAD428D19E655C /* Pods-KFDate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C1A7372C75C7539BA3A49D165824EB2 /* TimeInterval+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A925B482498B76CE863AB68945B1388 /* TimeInterval+Date.swift */; };
-		68BE078FC1B2A7C8D944C84FA07F94D1 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBE7C2C45F8480910EE9A487600C04E /* Date+String.swift */; };
-		8A22BC8F36645D221841DA5D85665A78 /* KFDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDCA569BE741AFFCC0025B21AB45BC /* KFDate-dummy.m */; };
-		8DAFE49082CA5972E50C4F61F8B01DE0 /* KFDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF643AC0423C894094CC9ECF8561D0E /* KFDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B39D8A9419ED1112CD7E57B768404B67 /* DateParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF3835BEA96D82A4866F7D14E08FA2 /* DateParsable.swift */; };
-		C28300B1FF4F00AB5DF11B9AFB2BD7DC /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA8B3844863D47CEF047B74C6218E2 /* String+Date.swift */; };
+		540C80420778084FCAA46341FA3F71E7 /* KFDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 208D0CB341109FC647921F18D5A2FC47 /* KFDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A65C3BF70286DF6A5DDBB9190ABD1CC /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB958BD83D7953D65C4C67CFF049E7F3 /* String+Date.swift */; };
+		BAE607E990146D212539D05CA7CD24C4 /* KFDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB2E48FC167C628174B0BED6A92F69 /* KFDate-dummy.m */; };
+		C2AEAC49F54ED599B1F6F516223753A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C4232516B7A585A1ED694C4388743FB5 /* Pods-KFDate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B56338CB991610D8A09C67CAD22 /* Pods-KFDate_Example-dummy.m */; };
-		C6BC7AAA2C8702A100917777 /* KFDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BC7AA92C8702A100917777 /* KFDate.swift */; };
+		CC3762C310CE58784DF1E9359AAD8354 /* KFDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103CF6D1E6779008CD460FEFC9664605 /* KFDate.swift */; };
 		CCE5163EC8DB57A86587E059B8C75908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D71479DE57C88D979D1BBDDA2736F570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D490007B5B582D223775DAA03A0778EB /* DateParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325A76FF615D2F6B3E30C213F7E6DB6C /* DateParsable.swift */; };
+		D99D6ABC1BA434DD7950B7336411B84F /* TimeInterval+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8713A174E6337AB5E57530F78175D /* TimeInterval+Date.swift */; };
 		F001E79353935B8B8606D3E76BC1118F /* Pods-KFDate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8B9BD69BF4063C7DF140E61E36C19A /* Pods-KFDate_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9C3B984C084FFB748C60864B6234CFBE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61C2A8DF955E5DE9158F6E77872F0549;
-			remoteInfo = KFDate;
-		};
-		BB804438F45C417B246B17D02091C6DF /* PBXContainerItemProxy */ = {
+		A267A98121209941FAADF6074B7EE161 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6D63E5BE480E35FF74BD055BF00C34E4;
 			remoteInfo = "Pods-KFDate_Example";
 		};
+		D34E0CF615DF530F44684C8363F89D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61C2A8DF955E5DE9158F6E77872F0549;
+			remoteInfo = KFDate;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0635DE265673408B1575E62F80D9B6CD /* Pods-KFDate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFDate_Example-Info.plist"; sourceTree = "<group>"; };
 		06A986BA6EA113FE6D5806730D3F01C9 /* Pods-KFDate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFDate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		103CF6D1E6779008CD460FEFC9664605 /* KFDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KFDate.swift; sourceTree = "<group>"; };
 		1313AD93D99EDF98899CB3415E8D1E3B /* Pods-KFDate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFDate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D359A1AFD79965E41A7005B737654EE /* Pods-KFDate_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KFDate_Example"; path = Pods_KFDate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26AA8B3844863D47CEF047B74C6218E2 /* String+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
+		208D0CB341109FC647921F18D5A2FC47 /* KFDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFDate-umbrella.h"; sourceTree = "<group>"; };
+		283EF52563AFFB25D523D582C0F15840 /* KFDate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFDate.release.xcconfig; sourceTree = "<group>"; };
+		2946B6607B17DE7A0795CF7AD2A39DEB /* KFDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KFDate.modulemap; sourceTree = "<group>"; };
+		2CFB7A1CD481AD6759CD72726421CD9A /* KFDate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KFDate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		325A76FF615D2F6B3E30C213F7E6DB6C /* DateParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateParsable.swift; sourceTree = "<group>"; };
 		39DA81CB138E5B4D887A055647E0C955 /* Pods-KFDate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFDate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3E851B56338CB991610D8A09C67CAD22 /* Pods-KFDate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFDate_Example-dummy.m"; sourceTree = "<group>"; };
 		3EB9AF4E217D22F34729BF623B159923 /* Pods-KFDate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KFDate_Tests.modulemap"; sourceTree = "<group>"; };
-		4AFF3835BEA96D82A4866F7D14E08FA2 /* DateParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateParsable.swift; path = KFDate/Classes/DateParsable.swift; sourceTree = "<group>"; };
 		4B8A54C14936E5F7951629E8C9D7D238 /* Pods-KFDate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFDate_Tests-Info.plist"; sourceTree = "<group>"; };
 		4E26DA76B297314D02FE7150932C3147 /* Pods-KFDate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFDate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E641C732D94D49DB6518F016135D912 /* KFDate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KFDate-Info.plist"; sourceTree = "<group>"; };
 		4FFA70F306C5CCDCD9254A1F7016B708 /* Pods-KFDate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFDate_Example-frameworks.sh"; sourceTree = "<group>"; };
 		54D3F7EAF687DA050DCD7A55D4732E24 /* Pods-KFDate_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KFDate_Tests"; path = Pods_KFDate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A490BF15E0DE6C931199ECBA590C9F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5CF643AC0423C894094CC9ECF8561D0E /* KFDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFDate-umbrella.h"; sourceTree = "<group>"; };
-		63A1C35EB57D3E9AB42D052B03DAF9A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		669EAF09404A8791F14E32A4ED206D1F /* KFDate */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KFDate; path = KFDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D9DF0167F7634FB55AFC52B0E6D84CB /* KFDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KFDate.modulemap; sourceTree = "<group>"; };
+		6964BA0E6443FEDD1E7CC6BAB92F9068 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6F8B9BD69BF4063C7DF140E61E36C19A /* Pods-KFDate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFDate_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79783336AC8D183BF609BC74D3F9D3A0 /* KFDate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFDate.release.xcconfig; sourceTree = "<group>"; };
-		7FACEAAF6860880D224C345210F7C377 /* KFDate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KFDate.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		8286095A7D3800A74229550A2DF1BF6E /* KFDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFDate-prefix.pch"; sourceTree = "<group>"; };
-		9A925B482498B76CE863AB68945B1388 /* TimeInterval+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Date.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A09FEC8E4987C76586741367CFD166E8 /* KFDate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KFDate-Info.plist"; sourceTree = "<group>"; };
-		ADBA6AA216615415D63E155555B2B69F /* KFDate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFDate.debug.xcconfig; sourceTree = "<group>"; };
-		BDDDCA569BE741AFFCC0025B21AB45BC /* KFDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFDate-dummy.m"; sourceTree = "<group>"; };
-		C6BC7AA92C8702A100917777 /* KFDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFDate.swift; sourceTree = "<group>"; };
+		76BB2E48FC167C628174B0BED6A92F69 /* KFDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFDate-dummy.m"; sourceTree = "<group>"; };
+		8D7825B6871B73681F0732920A05A5CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADEB835F34E2FA561CD4B79912E5B716 /* KFDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFDate-prefix.pch"; sourceTree = "<group>"; };
+		BB958BD83D7953D65C4C67CFF049E7F3 /* String+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
 		CBECEFFB8C7855E6D1D69C3C840D290D /* Pods-KFDate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFDate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEE8713A174E6337AB5E57530F78175D /* TimeInterval+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Date.swift"; sourceTree = "<group>"; };
+		DD9BED9147887B6927814F94E6B01BF9 /* Date+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 		DF083C8549FA1A4B8F82B75EBF0F97E6 /* Pods-KFDate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KFDate_Example.modulemap"; sourceTree = "<group>"; };
 		EC48D582CC879002E791A9B0A9062E8F /* Pods-KFDate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFDate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFBE7C2C45F8480910EE9A487600C04E /* Date+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
+		F3318DA9222C3722A56CDC60B660D867 /* KFDate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFDate.debug.xcconfig; sourceTree = "<group>"; };
 		F53382BEF805313BA1D3F5A53CBFA47C /* Pods-KFDate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFDate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8FD871D1DE3AF7390EAD428D19E655C /* Pods-KFDate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFDate_Example-umbrella.h"; sourceTree = "<group>"; };
 		F9C81240CF9084F88A14BE9C92099CC1 /* Pods-KFDate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFDate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +81,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2EF247348F5A2F5AF4BF076F822803D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AEAC49F54ED599B1F6F516223753A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5653994BE3B7C147A3F0E98687EE48A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,14 +102,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE5163EC8DB57A86587E059B8C75908 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B30783447A81176EB2F0EE2ED00904B5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D71479DE57C88D979D1BBDDA2736F570 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +127,7 @@
 		0D0CC1240CD67CAD441E5A57B68093ED /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48D860C547E5D04AD4D51E325C499AB6 /* KFDate */,
+				464EEA781E16E014D9BECFE32E996487 /* KFDate */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -149,43 +149,26 @@
 			path = "Target Support Files/Pods-KFDate_Example";
 			sourceTree = "<group>";
 		};
-		1F2B4CBE2F4F17AF2BB6338B94C57B39 /* Support Files */ = {
+		464EEA781E16E014D9BECFE32E996487 /* KFDate */ = {
 			isa = PBXGroup;
 			children = (
-				6D9DF0167F7634FB55AFC52B0E6D84CB /* KFDate.modulemap */,
-				BDDDCA569BE741AFFCC0025B21AB45BC /* KFDate-dummy.m */,
-				A09FEC8E4987C76586741367CFD166E8 /* KFDate-Info.plist */,
-				8286095A7D3800A74229550A2DF1BF6E /* KFDate-prefix.pch */,
-				5CF643AC0423C894094CC9ECF8561D0E /* KFDate-umbrella.h */,
-				ADBA6AA216615415D63E155555B2B69F /* KFDate.debug.xcconfig */,
-				79783336AC8D183BF609BC74D3F9D3A0 /* KFDate.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KFDate";
-			sourceTree = "<group>";
-		};
-		2E3E5672C9EEF7D7CE68A162D7241F93 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				EFBE7C2C45F8480910EE9A487600C04E /* Date+String.swift */,
-				26AA8B3844863D47CEF047B74C6218E2 /* String+Date.swift */,
-				9A925B482498B76CE863AB68945B1388 /* TimeInterval+Date.swift */,
-			);
-			name = Category;
-			path = KFDate/Classes/Category;
-			sourceTree = "<group>";
-		};
-		48D860C547E5D04AD4D51E325C499AB6 /* KFDate */ = {
-			isa = PBXGroup;
-			children = (
-				C6BC7AA92C8702A100917777 /* KFDate.swift */,
-				4AFF3835BEA96D82A4866F7D14E08FA2 /* DateParsable.swift */,
-				2E3E5672C9EEF7D7CE68A162D7241F93 /* Category */,
-				E7344352FF6EF961D419192E5D8B265D /* Pod */,
-				1F2B4CBE2F4F17AF2BB6338B94C57B39 /* Support Files */,
+				E97A811FE9CE3E13E90BB4C9BEC7C00F /* Category */,
+				54AA8E320E8157F34FD2630D3FDFA680 /* Core */,
+				8F5D80C7D27364A5F80F22A8757BA27B /* Pod */,
+				CFA49B42C689641DBC69812C7F678CEE /* Support Files */,
 			);
 			name = KFDate;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		54AA8E320E8157F34FD2630D3FDFA680 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				325A76FF615D2F6B3E30C213F7E6DB6C /* DateParsable.swift */,
+				103CF6D1E6779008CD460FEFC9664605 /* KFDate.swift */,
+			);
+			name = Core;
+			path = KFDate/Classes/Core;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -206,6 +189,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8F5D80C7D27364A5F80F22A8757BA27B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2CFB7A1CD481AD6759CD72726421CD9A /* KFDate.podspec */,
+				6964BA0E6443FEDD1E7CC6BAB92F9068 /* LICENSE */,
+				8D7825B6871B73681F0732920A05A5CE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +210,21 @@
 			);
 			sourceTree = "<group>";
 		};
+		CFA49B42C689641DBC69812C7F678CEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2946B6607B17DE7A0795CF7AD2A39DEB /* KFDate.modulemap */,
+				76BB2E48FC167C628174B0BED6A92F69 /* KFDate-dummy.m */,
+				4E641C732D94D49DB6518F016135D912 /* KFDate-Info.plist */,
+				ADEB835F34E2FA561CD4B79912E5B716 /* KFDate-prefix.pch */,
+				208D0CB341109FC647921F18D5A2FC47 /* KFDate-umbrella.h */,
+				F3318DA9222C3722A56CDC60B660D867 /* KFDate.debug.xcconfig */,
+				283EF52563AFFB25D523D582C0F15840 /* KFDate.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KFDate";
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,14 +233,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E7344352FF6EF961D419192E5D8B265D /* Pod */ = {
+		E97A811FE9CE3E13E90BB4C9BEC7C00F /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				7FACEAAF6860880D224C345210F7C377 /* KFDate.podspec */,
-				63A1C35EB57D3E9AB42D052B03DAF9A0 /* LICENSE */,
-				5A490BF15E0DE6C931199ECBA590C9F4 /* README.md */,
+				DD9BED9147887B6927814F94E6B01BF9 /* Date+String.swift */,
+				BB958BD83D7953D65C4C67CFF049E7F3 /* String+Date.swift */,
+				CEE8713A174E6337AB5E57530F78175D /* TimeInterval+Date.swift */,
 			);
-			name = Pod;
+			name = Category;
+			path = KFDate/Classes/Category;
 			sourceTree = "<group>";
 		};
 		F6C83E01FBBE9B1D94641349A2EAAFF3 /* Targets Support Files */ = {
@@ -263,11 +272,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FC5C64F490546F627972EAB8D07D6FC /* Headers */ = {
+		A744D1663932EABD0697D62CD18CA1EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DAFE49082CA5972E50C4F61F8B01DE0 /* KFDate-umbrella.h in Headers */,
+				540C80420778084FCAA46341FA3F71E7 /* KFDate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +285,12 @@
 /* Begin PBXNativeTarget section */
 		61C2A8DF955E5DE9158F6E77872F0549 /* KFDate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF674EDEE63ED12AC02511AB72A05166 /* Build configuration list for PBXNativeTarget "KFDate" */;
+			buildConfigurationList = 4CD787E5A0BEB699AB841C76828A4976 /* Build configuration list for PBXNativeTarget "KFDate" */;
 			buildPhases = (
-				3FC5C64F490546F627972EAB8D07D6FC /* Headers */,
-				30DFDD03137CA965C31A14ECE205BA92 /* Sources */,
-				B30783447A81176EB2F0EE2ED00904B5 /* Frameworks */,
-				0A6041A22A0F1C4A4527937983D48808 /* Resources */,
+				A744D1663932EABD0697D62CD18CA1EC /* Headers */,
+				CD3633147A58491E133947DFCAEB973E /* Sources */,
+				2EF247348F5A2F5AF4BF076F822803D0 /* Frameworks */,
+				87B83B0375CB3950D203C45811D7776D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -304,7 +313,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8BD89BC039B33F1ACD3239A9CE6423B1 /* PBXTargetDependency */,
+				9401FA40E38FE7B384CA7CF5A59F8C10 /* PBXTargetDependency */,
 			);
 			name = "Pods-KFDate_Example";
 			productName = Pods_KFDate_Example;
@@ -323,7 +332,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8E5B4D2C6A7F1AB85DB8381BDE4E46F0 /* PBXTargetDependency */,
+				B9DB413C8E40EE4D730BEE87D8E8B9C0 /* PBXTargetDependency */,
 			);
 			name = "Pods-KFDate_Tests";
 			productName = Pods_KFDate_Tests;
@@ -336,8 +345,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -360,14 +369,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A6041A22A0F1C4A4527937983D48808 /* Resources */ = {
+		14D9A49523CA9675ED28BBB219B1FE75 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14D9A49523CA9675ED28BBB219B1FE75 /* Resources */ = {
+		87B83B0375CB3950D203C45811D7776D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,24 +393,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30DFDD03137CA965C31A14ECE205BA92 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68BE078FC1B2A7C8D944C84FA07F94D1 /* Date+String.swift in Sources */,
-				B39D8A9419ED1112CD7E57B768404B67 /* DateParsable.swift in Sources */,
-				8A22BC8F36645D221841DA5D85665A78 /* KFDate-dummy.m in Sources */,
-				C28300B1FF4F00AB5DF11B9AFB2BD7DC /* String+Date.swift in Sources */,
-				C6BC7AAA2C8702A100917777 /* KFDate.swift in Sources */,
-				5C1A7372C75C7539BA3A49D165824EB2 /* TimeInterval+Date.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BAE36C41FA79F4BDE01F1FD8F68676BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C4232516B7A585A1ED694C4388743FB5 /* Pods-KFDate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3633147A58491E133947DFCAEB973E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C87BB45E14F9ECEBA6610A8686A2DEC /* Date+String.swift in Sources */,
+				D490007B5B582D223775DAA03A0778EB /* DateParsable.swift in Sources */,
+				CC3762C310CE58784DF1E9359AAD8354 /* KFDate.swift in Sources */,
+				BAE607E990146D212539D05CA7CD24C4 /* KFDate-dummy.m in Sources */,
+				9A65C3BF70286DF6A5DDBB9190ABD1CC /* String+Date.swift in Sources */,
+				D99D6ABC1BA434DD7950B7336411B84F /* TimeInterval+Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,17 +425,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BD89BC039B33F1ACD3239A9CE6423B1 /* PBXTargetDependency */ = {
+		9401FA40E38FE7B384CA7CF5A59F8C10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KFDate;
 			target = 61C2A8DF955E5DE9158F6E77872F0549 /* KFDate */;
-			targetProxy = 9C3B984C084FFB748C60864B6234CFBE /* PBXContainerItemProxy */;
+			targetProxy = D34E0CF615DF530F44684C8363F89D90 /* PBXContainerItemProxy */;
 		};
-		8E5B4D2C6A7F1AB85DB8381BDE4E46F0 /* PBXTargetDependency */ = {
+		B9DB413C8E40EE4D730BEE87D8E8B9C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KFDate_Example";
 			target = 6D63E5BE480E35FF74BD055BF00C34E4 /* Pods-KFDate_Example */;
-			targetProxy = BB804438F45C417B246B17D02091C6DF /* PBXContainerItemProxy */;
+			targetProxy = A267A98121209941FAADF6074B7EE161 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -465,9 +474,9 @@
 			};
 			name = Release;
 		};
-		4EA7146F6E012C8E2F7A82070BD07328 /* Debug */ = {
+		45DA20D154E2DDF44E6B04E9DD9060D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADBA6AA216615415D63E155555B2B69F /* KFDate.debug.xcconfig */;
+			baseConfigurationReference = F3318DA9222C3722A56CDC60B660D867 /* KFDate.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -489,7 +498,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -617,7 +626,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -689,9 +699,9 @@
 			};
 			name = Debug;
 		};
-		E2BA4061EEB3D2F77949C53B272A691B /* Release */ = {
+		D35027AA64070E1B6C487E9E764418CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79783336AC8D183BF609BC74D3F9D3A0 /* KFDate.release.xcconfig */;
+			baseConfigurationReference = 283EF52563AFFB25D523D582C0F15840 /* KFDate.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -713,7 +723,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -776,20 +786,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4CD787E5A0BEB699AB841C76828A4976 /* Build configuration list for PBXNativeTarget "KFDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DA20D154E2DDF44E6B04E9DD9060D0 /* Debug */,
+				D35027AA64070E1B6C487E9E764418CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B199A8230302CE6B49EA7B03A16120AA /* Build configuration list for PBXNativeTarget "Pods-KFDate_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				666F11AD5030D8437B142360F407BC6E /* Debug */,
 				43439B3C9EE75F91EFC05B2BC5C08554 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF674EDEE63ED12AC02511AB72A05166 /* Build configuration list for PBXNativeTarget "KFDate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EA7146F6E012C8E2F7A82070BD07328 /* Debug */,
-				E2BA4061EEB3D2F77949C53B272A691B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

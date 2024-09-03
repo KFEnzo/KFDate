@@ -1,6 +1,6 @@
 {
   "name": "KFDate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Simple date convert.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/KFEnzo/KFDate",
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/KFEnzo/KFDate.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "KFDate/Classes/**/*"
+  "source_files": "KFDate/Classes/**/*",
+  "swift_version": "5.0"
 }

@@ -1,5 +1,5 @@
 PODS:
-  - KFDate (0.1.0)
+  - KFDate (0.1.1)
 
 DEPENDENCIES:
   - KFDate (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KFDate: b0ddc1398224ad73d992d86dd818ee101cbcea04
+  KFDate: 376f426ab30d3f465238b0cedc0796ed4fcf03ab
 
 PODFILE CHECKSUM: 3a0a6af5bf9d4965df6239c135090f405cf2d3a6
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2
